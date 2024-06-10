@@ -12,8 +12,7 @@ $input = $_GET["userInput"]
 
 <body>
 
-    <h1>Il testo inserito è:</h1>
-    <h2> <?php echo $input; ?> </h2>
+    <h1>Il testo inserito è lungo <?php echo strlen($input); ?> caratteri</h1>
 
 </body>
 
